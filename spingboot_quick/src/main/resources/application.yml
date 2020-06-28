@@ -1,0 +1,42 @@
+#普通数据的配置
+name: zhangsan   #冒号后需空格
+
+#配置对象
+
+server:
+  port: 8080
+
+
+#配置数组、集合
+city:
+  - beijing
+  - tianjing
+  - chongqing
+  - shanghai
+
+city2: [beijing,tianjing,chongqing]
+
+#配置对象数据
+student:
+  - name: tom
+    age: 18
+    addr: beijing
+  - name: lucy
+    age: 20
+    addr: tianjing
+
+student2: [{name: tom,age: 19,addr: beijing},{name: john,age: 19,addr: beijing}]
+
+#Map配置
+map:
+  id: 111
+  name: tom
+spring:
+  jta:
+    atomikos:
+      properties:
+        force-shutdown-on-vm-exit:
+person:
+  addr: beijing
+  age: 19
+  name: tom
